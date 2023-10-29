@@ -1,0 +1,392 @@
+* {
+
+    margin: 10;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/*tabla*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/**/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00B4DB;
+    /* Tu fondo de encabezado */
+    padding: 10px;
+}
+
+.imagenicon {
+    width: 90px;
+    height: 80px;
+    float: left;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    background: #870000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 25px;
+
+}
+
+h1.texh1 {
+    text-align: center;
+    color: black;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px 10vw;
+}
+
+
+.grid {
+    text-align: center;
+    max-width: 100%;
+    /* El div no será más ancho que el 100% del contenedor padre */
+    width: 80%;
+    /* Un ancho predeterminado que se aplica si la pantalla es lo suficientemente ancha */
+    margin: 0 auto;
+    /* Centra el div horizontalmente */
+    padding: 20px;
+    /* Añade algún espacio interior para el contenido */
+    display: grid;
+    background: #ffb347;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c5c906, #eedfcb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c5c906, #eedfcb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #333;
+}
+
+/* Media query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 768px) {
+    .imagenicon {
+        width: 70px;
+        height: 60px;
+        float: left;
+    }
+
+    .grid {
+        width: 90%;
+        /* Cambia el ancho en pantallas más pequeñas */
+        padding: 10px;
+        /* Reduce el espacio interior en pantallas más pequeñas */
+    }
+}
+
+.botones {
+    padding: 10px;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.btn {
+
+    display: inline-block;
+    margin: 4px;
+}
+
+/* Estilos para el contenedor flex-box */
+.flex-box {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(rgb(221, 221, 245), white);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 70px;
+    margin: 2px;
+    overflow: hidden;
+    /* Evita que el contenido se desborde */
+    display: flex;
+    /* Usa flexbox para ajustar el contenido */
+    flex-direction: column;
+    /* Apila el contenido verticalmente */
+}
+
+
+/* Estilos para las listas desordenadas (ul) */
+.flex-container ul {
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/* Estilos para los elementos de lista (li) */
+.flex-container li {
+    margin-left: 35px;
+    display: flex;
+    margin-bottom: -40px;
+    /* Espacio entre elementos de lista */
+    margin-top: -25px;
+}
+
+/* Estilos para cada tipo de span */
+.number {
+    color: black;
+    letter-spacing: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.plus {
+    color: red;
+    letter-spacing: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.equal {
+    color: red;
+    letter-spacing: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.result {
+    color: black;
+    /* Agrega espaciado entre caracteres */
+}
+
+
+/**RESTA
+/* Estilos para las listas desordenadas (ul) */
+
+
+.flex-container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 25px;
+
+}
+
+
+/* Estilos para las listas desordenadas (ul) */
+.flex-container2 ul {
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/* Estilos para los elementos de lista (li) */
+.flex-container2 li {
+    text-align: right;
+    margin-bottom: -40px;
+    margin-right: 70px;
+    margin-top: -25px;
+}
+
+/* Estilos para cada tipo de span */
+.number2 {
+    color: black;
+    /* Agrega espaciado entre caracteres */
+}
+
+.menus2 {
+    color: red;
+    letter-spacing: 10px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.equal2 {
+    color: red;
+    letter-spacing: 10px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.result2 {
+    color: black;
+    letter-spacing: 10px;
+    /* Alinea el texto a la derecha */
+}
+
+
+/**MULTIPLICACIÓN
+/* Estilos para las listas desordenadas (ul) */
+
+
+.flex-container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    background: #00c3ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 25px;
+
+}
+
+
+/* Estilos para las listas desordenadas (ul) */
+.flex-container3 ul {
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/* Estilos para los elementos de lista (li) */
+.flex-container3 li {
+
+    margin-left: 35px;
+    display: flex;
+    margin-bottom: -40px;
+    /* Espacio entre elementos de lista */
+    margin-top: -25px;
+}
+
+/* Estilos para cada tipo de span */
+.number3 {
+    color: black;
+    margin-right: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.multi3 {
+    color: red;
+    letter-spacing: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.equal3 {
+    color: red;
+    letter-spacing: 20px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.result3 {
+    color: black;
+    /* Agrega espaciado entre caracteres */
+}
+
+/**RESTA
+/* Estilos para las listas desordenadas (ul) */
+
+
+.flex-container4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2980b9, #6dd5fa, #1c6125);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #1c6125);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 25px;
+
+}
+
+
+/* Estilos para las listas desordenadas (ul) */
+.flex-container4 ul {
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/* Estilos para los elementos de lista (li) */
+.flex-container4 li {
+    text-align: right;
+    margin-bottom: -40px;
+    margin-right: 70px;
+    margin-top: -25px;
+}
+
+/* Estilos para cada tipo de span */
+.number4 {
+    color: black;
+    /* Agrega espaciado entre caracteres */
+}
+
+.division4 {
+    color: red;
+    letter-spacing: 10px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.equal4 {
+    color: red;
+    letter-spacing: 10px;
+    /* Agrega espaciado entre caracteres */
+}
+
+.result4 {
+    color: black;
+    letter-spacing: 10px;
+    /* Alinea el texto a la derecha */
+}

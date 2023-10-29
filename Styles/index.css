@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.imagenicon-container {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    /* Establece la posición en relativa para que los elementos hijos se posicionen en relación con este contenedor */
+}
+
+.imagenicon {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor sin distorsionarla */
+    position: absolute;
+    /* Posiciona la imagen de manera absoluta para que sea parte del fondo */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Coloca la imagen detrás del contenido */
+}
+
+.card-title {
+    text-align: center;
+}
+
+body {
+    background: url('../images/background6.jpg')no-repeat;
+}
+
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.card-body {
+    padding: 30px;
+    margin-top: -15px;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border: none;
+}
+
+h3,
+h5 {
+    color: rgb(0, 91, 228);
+}
+
+h1.texh1 {
+    text-align: center;
+    color: #ffff;
+
+}

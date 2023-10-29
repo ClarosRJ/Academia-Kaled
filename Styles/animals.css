@@ -1,0 +1,169 @@
+* {
+    margin: 10;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00B4DB;
+    /* Tu fondo de encabezado */
+    padding: 10px;
+}
+
+.imagenicon {
+    width: 90px;
+    height: 80px;
+    float: left;
+}
+
+h1.texh1 {
+    text-align: center;
+    color: black;
+
+    padding: 10px 10vw;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.botones {
+    padding: 10px;
+    align-items: center;
+    display: inline-block;
+}
+
+.btn {
+
+    display: inline-block;
+    margin: 4px;
+}
+
+
+.grid {
+    text-align: center;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+    background: #108dc7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ef8e38, #108dc7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ef8e38, #108dc7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.flex-box img {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 1px;
+}
+
+.flex-box:hover {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    margin: 2px;
+
+    background: red;
+    cursor: default;
+    color: white;
+}
+
+.flex-box.clicked {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    margin: 2px;
+
+    background: red;
+    cursor: default;
+    color: white;
+}
+
+
+.flex-container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    border-radius: 5px;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.flex-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra horizontalmente el contenido */
+    margin: 2px;
+    width: 85px;
+    /* Ancho fijo para .flex-box2 */
+    height: auto;
+    background: linear-gradient(red, black);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.flex-box2 img {
+    width: 80px;
+    /* 100% de ancho para las imágenes */
+    height: 70px;
+    /* Altura automática para mantener la proporción */
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin: 2px;
+}
